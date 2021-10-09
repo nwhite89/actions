@@ -1,0 +1,26 @@
+{
+  "name": "actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "action-run": "node action-handler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwhite89/actions.git"
+  },
+  "author": "Nick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nwhite89/actions/issues"
+  },
+  "homepage": "https://github.com/nwhite89/actions#readme",
+  "dependencies": {
+    "node-fetch": "~2.6.5",
+    "node-schedule": "~2.0.0",
+    "serverless": "~2.60.0",
+    "web3": "~1.5.3"
+  }
+}
